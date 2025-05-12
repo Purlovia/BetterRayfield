@@ -2036,7 +2036,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 			Button.Title.Text = ButtonSettings.Name
 			Button.Visible = true
 			Button.Parent = TabPage
-			Button.Title.FontFace = Font.new("Courier")
 
 			Button.BackgroundTransparency = 1
 			Button.UIStroke.Transparency = 1
